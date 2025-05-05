@@ -16,9 +16,9 @@ export default class BasicPageComponent {
   localeService = inject(LocaleService);
   currentLocale = signal(inject(LOCALE_ID));
 
-  nameLower = signal('fernando');
-  nameUpper = signal('FERNANDO');
-  fullName = signal('feRnaNdo HeRRerA');
+  nameLower = signal('miguel');
+  nameUpper = signal('MIGUEL');
+  fullName = signal('MiGuEl AlVaRez');
 
   customDate = signal(new Date());
 

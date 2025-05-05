@@ -13,7 +13,7 @@ import {
 import { interval, map, tap } from 'rxjs';
 
 const client1 = {
-  name: 'Fernando',
+  name: 'Miguel',
   gender: 'male',
   age: 39,
   address: 'Ottawa, Canadá',
@@ -70,7 +70,7 @@ export default class UncommonPageComponent {
   clients = signal([
     'Maria',
     'Pedro',
-    'Fernando',
+    'Miguel',
     'Melissa',
     'Natalia',
     'Andrea',
@@ -84,8 +84,8 @@ export default class UncommonPageComponent {
 
   // KeyValue Pipe
   profile = {
-    name: 'Fernando',
-    age: 39,
+    name: 'Miguel',
+    age: 38,
     address: 'Ottawa, Canada',
   };
 

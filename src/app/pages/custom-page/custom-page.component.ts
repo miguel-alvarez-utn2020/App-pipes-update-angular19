@@ -25,7 +25,7 @@ import { HeroFilterPipe } from '../../pipes/hero-filter.pipe';
   templateUrl: './custom-page.component.html',
 })
 export default class CustomPageComponent {
-  name = signal('Fernando Herrera');
+  name = signal('Miguel Alvarez');
 
   upperCase = signal(true);
 

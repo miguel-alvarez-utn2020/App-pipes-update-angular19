@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'toggleCase', //    'fernando' | toggleCase
+  name: 'toggleCase', //    'miguel' | toggleCase
 })
 export class ToggleCasePipe implements PipeTransform {
   transform(value: string, upper: boolean = true): string {
